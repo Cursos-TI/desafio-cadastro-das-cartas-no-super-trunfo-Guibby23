@@ -23,7 +23,7 @@ printf ("PIB: ");
 scanf ("%f", &pib1);
 
 printf ("Pontos Turisticos : ");
-scanf ("%d",&pontos1);
+scanf ("%d", &pontos1);
 
 // Segunda Carta
 
@@ -44,11 +44,13 @@ scanf ("%d", &pontos2);
 
 // Dados Cadastrados 
 
-printf("\nCarta %s ->\n População: %d\n, Area: %.2f\n, Pib: %.2f\n, Pontos Turisticos :%d\n",
-    codigo1, populacao1, area1, pib1, pontos1);
+printf("\nCarta %s ->\nPopulação: %d \nArea: %.2f \nPib: %.2f \nPontos Turisticos:%d",
+    codigo1 , populacao1, area1, pib1, pontos1);
 
-printf("Carta %s ->\n População: %d\n, Area: %.2f\n, Pib: %.2f\n, Pontos Turisticos :%d\n",
-    codigo2, populacao2, area2, pib2, pontos2);
+printf("\nCarta %s ->\nPopulação: %d \nArea: %.2f \nPib: %.2f \nPontos Turisticos:%d", 
+    codigo2 , populacao2, area2, pib2, pontos2);
     
     return 0;
+}
+
 }
